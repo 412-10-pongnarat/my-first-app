@@ -14,7 +14,7 @@ if st.button("คำนวนค่า BMI 📝"):
   height_m = height_cm / 100
   bmi = weight / (height_m ** 2)
 
-  st.wrtiter("---")
+  st.write("---")
   st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
 #ส่วนที่ 4 แปลผลค่า BMI ตามเกณฑ์
