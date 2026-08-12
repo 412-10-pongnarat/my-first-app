@@ -18,7 +18,8 @@ if st.button("คำนวนค่า BMI 📝"):
   st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
   #ส่วนที่ 4 แปลผลค่า BMI ตามเกณฑ์
-    if bmi < 18.5:
+      if bmi < 18.5:
+IndentationError: unexpected indent
         st.warning("⚠️ คุณมีน้ำหนักน้อยกว่าเกณฑ์ (ผอม)")
     elif 18.5 <= bmi < 23.0:
         st.success("💪 คุณมีน้ำหนักอยู่ในเกณฑ์ (สุขภาพดี)")
